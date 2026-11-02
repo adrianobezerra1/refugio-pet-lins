@@ -1,0 +1,145 @@
+body {
+    min-height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333333;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    background-color: #FFFFFF;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px 30px;
+}
+
+.logo {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Menu de navegação */
+.menu-opcoes ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-opcoes a:hover {
+    text-decoration: underline;
+}
+
+/* Conteúdo principal */
+main {
+    flex: 1;
+    background-color: #F5F5F5;
+}
+
+.faixa-ong {
+    background-color: #D3DBD5;
+    padding: 20px;
+    text-align: center;
+}
+
+.secao-principal {
+    padding: 20px 30px 40px;
+}
+
+.logo-central {
+    text-align: center;
+    padding: 30px 0;
+    color: #333333;
+}
+
+.logo-central h2 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.conteudo-principal {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Linhas de texto e imagem */
+.linha-conteudo {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.texto-ong,
+.imagem-ong {
+    flex: 1;
+    min-width: 0;
+}
+
+.texto-ong h2 {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.texto-ong p {
+    line-height: 1.7;
+    margin-bottom: 14px;
+}
+
+/* Espaço reservado para as imagens */
+.imagem-ong {
+    background-color: #D3DBD5;
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Rodapé */
+footer {
+    background-color: #E7701C;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+
+.container-rodape {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.texto-ong h1 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+.animais li {
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+    margin: 2px;
+    padding-bottom: 10px;
+}
+
+.faixa-laranja {
+    background-color: #E7701C;
+    padding: 15px;
+    text-align: center;
+    color: #FFFFFF;
+}
