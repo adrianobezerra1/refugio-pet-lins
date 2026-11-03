@@ -7,7 +7,7 @@ Projeto de extensão desenvolvido por alunos do
 
 ## 👥 Integrantes do grupo
 
- | Nome | Função | |Debora Cristina | | |Ana Carolina | | |Rafaea Sofia | | |Rafaela Mansano | | |Matheus Henrique | | |Lucas Gabriel | | >
+ | Nome | Função | |Debora Cristina | | |Ana Carolina | | |Rafaela Sofia | | |Rafaella Mansano | | |Matheus Henrique | | |Lucas Gabriel | | >
         
 ## 🗂️ Estrutura do repositório
 
