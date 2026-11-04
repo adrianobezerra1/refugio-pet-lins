@@ -50,7 +50,7 @@ main {
 
 .faixa-ong {
     background-color: #D3DBD5;
-    padding: 20px;
+    padding: 70px;
     text-align: center;
 }
 
@@ -140,5 +140,22 @@ footer {
     margin: 0;
     font-size: 18px;
     text-align:left;
+    float: left center;
     display: inline-block;
+}
+
+.contatos {
+    margin: 0;
+    font-size: 18px;
+    text-align:left;
+    float: left center;
+    display: inline-block;
+    background-color: #E7701C;
+    padding: 15px;
+    text-align: center;
+}
+.conteudo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
 }
