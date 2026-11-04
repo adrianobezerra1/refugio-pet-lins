@@ -140,22 +140,26 @@ footer {
     margin: 0;
     font-size: 18px;
     text-align:left;
-    float: left center;
     display: inline-block;
+    width: 350px;
 }
 
 .contatos {
     margin: 0;
     font-size: 18px;
     text-align:left;
-    float: left center;
     display: inline-block;
     background-color: #E7701C;
     padding: 15px;
     text-align: center;
+    width: 150px;
+    height: 95px;
+    color: #FFFFFF;
 }
 .conteudo {
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
+    display: flex;
+    gap: 90px;
 }
