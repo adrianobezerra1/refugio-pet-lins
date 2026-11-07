@@ -32,8 +32,7 @@ refugio-pet-lins/
     └── img//
 ```
 
-## 📋 Etapas do 
-    projeto
+## 📋 Etapas do Projeto
 
 ### Etapa 1 — Pesquisa de Sites de ONGs de Animais
 Pesquisa e análise de 3 a 5 sites de ONGs de proteção e adoção de animais,
