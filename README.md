@@ -7,8 +7,15 @@ Projeto de extensão desenvolvido por alunos do
 
 ## 👥 Integrantes do grupo
 
- | Nome | Função | |Debora Cristina | | |Ana Carolina | | |Rafaela Sofia | | |Rafaella Mansano | | |Matheus Henrique | | |Lucas Gabriel | | >
-        
+| Foto | Nome | GitHub | Função / Contribuição |
+| :---: | :--- | :--- | :--- |
+| <img src="https://wsrv.nl/?url=https://github.com/DEBORA37.png&w=100&h=100&fit=cover&mask=circle" width="50"> | **Debora Cristina** | [@DEBORA37](https://github.com/MateusPires11) | Pesquisa, Entrevista, Imagens |
+| <img src="https://wsrv.nl/?url=https://github.com/anacoliveira26.png&w=100&h=100&fit=cover&mask=circle" width="50"> | **Ana Carolina** | [@anacoliveira26](https://github.com/andersonlucas294) | Dev Frontend, UX/UI ,Wireframe |
+| <img src="https://wsrv.nl/?url=https://github.com/rafaelasofia.png&w=100&h=100&fit=cover&mask=circle" width="50"> | **Rafaela Sofia** | [@rafaelasofia](https://github.com/LuisHenrique676) | Pesquisa, Relatório |
+| <img src="https://wsrv.nl/?url=https://github.com/RafaellaMansano.png&w=100&h=100&fit=cover&mask=circle" width="50"> | **Rafaella Mansano** | [@RafaellaMansano](https://github.com/murillobfranca10) | Dev Frontend, Wireframe |
+| <img src="https://wsrv.nl/?url=https://github.com/matheushenriqueg74-prog.png&w=100&h=100&fit=cover&mask=circle" width="50"> | **Matheus Henrique** | [@matheushenriqueg74-prog](https://github.com/raphael2222226869) | Textos |
+| <img src="https://wsrv.nl/?url=https://github.com/nome_do_lucas.png&w=100&h=100&fit=cover&mask=circle" width="50"> | **Lucas Gabriel** | [@nome_do_lucas](https://github.com/raphael2222226869) | Pesquisa |
+
 ## 🗂️ Estrutura do repositório
 
 ```
