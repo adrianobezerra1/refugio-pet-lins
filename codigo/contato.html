@@ -27,86 +27,96 @@
       <section class="faixa-ong">
       </section>
 
-      
-<section class="secao-principal">
-    <div class="logo-central">
-        <h2>Contatos</h2>
-        <p>
-            Para saber mais sobre a ONG, os pets ou doações,
-            preencha o formulário ou acesse as redes sociais abaixo.
-        </p>
-    </div>
+      <section class="secao-principal">
+        <div class="logo-central">
+          <h2>Contatos</h2>
+          <p>
+            Para saber mais sobre a ONG,Pets ou doações preencha o formulário ou
+            acesse as redes sociais abaixo.
+          </p>
+        </div>
 
-    <div class="conteudo">
+        <div class="conteudo">
+          <div class="form">
+            <form action="/enviar-dados" method="post">
+              <label for="nome">Nome</label>
+              <input
+                type="text"
+                id="nome"
+                name="nome"
+                placeholder="Nome*"
+                required
+              />
 
-        <div class="formulario">
-            <form>
-                <label for="nome">Nome</label>
-                <input type="text" id="nome" name="nome" placeholder="Nome*" required>
+              <label for="email">E-mail</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="E-mail*"
+                required
+              />
 
-                <label for="email">E-mail</label>
-                <input type="email" id="email" name="email" placeholder="E-mail*" required>
+              <label for="telefone">Telefone</label>
+              <input
+                type="tel"
+                id="telefone"
+                name="telefone"
+                placeholder="Telefone*"
+                required
+              />
 
-                <label for="telefone">Telefone</label>
-                <input type="tel" id="telefone" name="telefone" placeholder="Telefone*" required>
+              <label for="mensagem">Mensagem</label>
+              <textarea
+                id="mensagem"
+                name="mensagem"
+                placeholder="Sua mensagem*"
+                required
+              ></textarea>
 
-                <label for="mensagem">Mensagem</label>
-                <textarea id="mensagem" name="mensagem" placeholder="Sua mensagem*" required></textarea>
-
-                <button type="submit">Enviar</button>
+              <button type="submit">Enviar</button>
             </form>
-        </div>
+          </div>
 
-        <div class="redes-sociais">
-
-            <div class="contatos">
-                <div class="icone">
-                    <img src="img/instagram.webp" alt="Instagram">
-                </div>
-                <span>
-                    <a href="https://www.instagram.com/ongrefugiopetlins/" target="_blank">
-                        @ongrefugiopetlins
-                    </a>
-                </span>
-            </div>
-
-            <div class="contatos">
-                <div class="icone">
-                    <img src="img/whatsapp.webp" alt="WhatsApp">
-                </div>
-                <span>
-                    <a href="https://wa.me/5514997606141?text=Ol%C3%A1!%20Vim%20pelo%20link%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank">
-                        +55 (14) 99760-6141
-                    </a>
-                </span>
-            </div>
-
-            <div class="contatos">
-                <div class="icone">
-                    <img src="img/facebook.webp" alt="Facebook">
-                </div>
-                <span>
-                    <a href="https://www.facebook.com/people/ONG-Ref%C3%BAgio-Pet-Lins/100091501293850/">
-                        ONG Refúgio Pet Lins
-                    </a>
-                </span>
-            </div>
-
-        </div>
-    </div>
-
-    <div class="conteudo">
-        <section class="faixa-laranja">
-            <img src="img/local.webp" alt="Localização">
-            <span>
-                <a href="https://maps.app.goo.gl/XzYnYeyaVsXjwBL27" target="_blank">
-                    R. Douradinho, 5 - Ribeiro, Lins - SP, 16401-017
+          <div class="contatos">
+            <ul>
+              <li>
+                <a href="https://maps.app.goo.gl/XzYnYeyaVsXjwBL27">
+                  <img src="img/local.webp" alt="" />
+                  R. Douradinho, 5 - Ribeiro, Lins - SP, 16401-017
                 </a>
-            </span>
-        </section>
-    </div>
-</section>
+              </li>
 
+              <ul>
+              <li>
+                <a href="https://www.instagram.com/ongrefugiopetlins">
+                  <img src="img/instagram.webp" alt="" />
+                  @ongrefugiopetlins
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://www.facebook.com/people/ONG-Ref%C3%BAgio-Pet-Lins/100091501293850/"
+                >
+                  <img src="img/facebook.webp" alt="" />
+                  ONG Refúgio Pet Lins
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://wa.me/5514997606141?text=Ol%C3%A1!%20Vim%20pelo%20link%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
+                  target="_blank"
+                >
+                  <img src="img/whatsapp.webp" alt="" />
+                  +55 (14) 99760-6141
+                </a>
+              </li>
+            </ul>
+          </div>          
+        </div>
+      </section>
 
       <section class="maps">
         <iframe
