@@ -67,14 +67,6 @@ main {
     background-color: #F5F5F5;
 }
 
-.faixa-ong {
-    background-color: #D3DBD5;
-    padding: 200px;
-    text-align: center;
-    background-image: url("../img/canto-pets2.jpeg");
-    opacity: 0.5;
-}
-
 .secao-principal {
     padding: 20px 30px 40px;
 }

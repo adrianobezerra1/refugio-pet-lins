@@ -67,7 +67,10 @@ main {
 }
 
 .faixa-ong {
-    background-color: #D3DBD5;
+    background-color: #d3d8d5;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     padding: 70px;
     text-align: center;
 }
