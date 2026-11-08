@@ -1,8 +1,5 @@
-body {
-    min-height: 100%;
-    margin: 0;
-}
 
+/* Configurações gerais */
 body {
     display: flex;
     flex-direction: column;
@@ -20,22 +17,17 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 20px;
-    padding: 30px 30px;
+    padding: 30px;
     min-height: 80px;
 }
 
-.logo  img{
+.logo img {
     background-position: top left;
-    font-size: 14px;
-    padding-right: 35px;
-    text-align: left;
     padding: 8px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     left: 10px;
-    font-size: 24px;
-    margin: 0;
     height: 100px;
     width: auto;
 }
@@ -46,7 +38,7 @@ body {
     flex-wrap: wrap;
     gap: 20px;
     list-style: none;
-    margin: 0;
+    margin-bottom: 0;
     padding: 0;
 }
 
@@ -56,10 +48,8 @@ body {
 }
 
 .menu-opcoes a:hover {
-    text-decoration: none;
     color: #E7701C;
 }
-
 
 /* Conteúdo principal */
 main {
@@ -69,8 +59,10 @@ main {
 
 .faixa-ong {
     background-color: #D3DBD5;
-    padding: 70px;
+    padding: 200px;
     text-align: center;
+    background-image: url("../img/canto-pets2.jpeg");
+    opacity: 0.5;
 }
 
 .secao-principal {
@@ -84,16 +76,179 @@ main {
 }
 
 .logo-central h2 {
-    margin: 0;
+    margin: 0 0 10px;
     font-size: 28px;
 }
 
+.logo-central p {
+    margin: 0;
+}
+
+/* Conteúdo */
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+/* Formulário */
+.formulario {
+    width: 50%;
+    background-color: #D3DBD5;
+    padding: 20px;
+    border-radius: 10px;
+    min-height: 400px;
+    box-sizing: border-box;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.formulario label {
+    font-size: 14px;
+}
+
+.formulario input,
+.formulario textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    font-family: Arial, sans-serif;
+}
+
+.formulario input {
+    height: 50px;
+}
+
+.formulario textarea {
+    height: 165px;
+    resize: vertical;
+}
+
+.formulario input:focus,
+.formulario textarea:focus {
+    outline: 2px solid #E7701C;
+}
+
+.formulario button {
+    background-color: #E7701C;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 20px;
+    padding: 12px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.formulario button:hover {
+    background-color: #C85C12;
+}
+
+/* Redes sociais */
+.redes-sociais {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contatos {
+    background-color: #E7701C;
+    width: 195px;
+    height: 240px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    text-align: center;
+    gap: 20px;
+}
+
+.icone img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.contatos a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.contatos a:hover {
+    text-decoration: underline;
+}
+
+/* Endereço */
+.faixa-laranja {
+    background-color: #E7701C;
+    color: #FFFFFF;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    width: 720px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.faixa-laranja img {
+    display: block;
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.faixa-laranja span {
+    flex: 1;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+}
+
+.faixa-laranja a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* Mapa */
+.maps {
+    width: 100%;
+}
+
+/* Rodapé */
+footer {
+    background-color: #E7701C;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+
+.container-rodape {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Conteúdo da ONG */
 .conteudo-principal {
     max-width: 1000px;
     margin: 0 auto;
 }
 
-/* Linhas de texto e imagem */
 .linha-conteudo {
     display: flex;
     align-items: center;
@@ -117,7 +272,6 @@ main {
     margin-bottom: 14px;
 }
 
-/* Espaço reservado para as imagens */
 .imagem-ong {
     background-color: #D3DBD5;
     min-height: 250px;
@@ -129,111 +283,8 @@ main {
     box-sizing: border-box;
 }
 
-/* Rodapé */
-footer {
-    background-color: #E7701C;
-    color: #FFFFFF;
-    padding: 20px;
-    text-align: center;
-}
-
-.container-rodape {
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
 .texto-ong h1 {
     margin-top: 0;
     margin-bottom: 16px;
     font-weight: bold;
-}
-
-.faixa-laranja {
-    background-color: #E7701C;
-    color: #FFFFFF;
-    padding: 15px;
-    text-align: center;
-    border-radius: 10px;
-    display: flex;
-    width: 720px;
-    align-items: center;
-    box-sizing: border-box;
-}
-
-.contatos {
-    background-color: #E7701C;
-    width: 195px;
-    height: 240px;
-    color: #FFFFFF;
-    border-radius: 10px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    font-size: 18px;
-    text-align: center;
-    gap: 20px;
-}
-
-.conteudo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 90px;
-    margin-bottom: 40px;
-}
-
-.icone img {
-    display: block;
-    width: 80px;
-    height: 80px;
-    object-fit: contain;
-}
-
-.faixa-laranja img {
-    display: block;
-    width: 50px;
-    height: 50px;
-    object-fit: contain;
-    float: left;
-}
-
-.faixa-laranja span {
-    flex: 1;
-    font-size: 18px;
-    text-align: center;
-    padding: 20px;
-} 
-
-span a {
-    color: #7e4242;
-}
-.formulario {
-    display: flex;
-}
-.redes-sociais {
-    display: flex;
-    flex-direction: column;
-}
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-    width: 100%;
-    margin-top: 100px;
-}
-input,
-textarea {
-    width: 100%;
-    box-sizing: border-box;
-}
-.formulario {
-    width: 50%;
-    background-color: #D3DBD5;
-    padding: 20px;
-    border-radius: 10px;
-    min-height: 400px;
 }
