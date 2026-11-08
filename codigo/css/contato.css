@@ -208,5 +208,32 @@ footer {
 } 
 
 span a {
-    color: #FFFFFF;
+    color: #7e4242;
+}
+.formulario {
+    display: flex;
+}
+.redes-sociais {
+    display: flex;
+    flex-direction: column;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    margin-top: 100px;
+}
+input,
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+.formulario {
+    width: 50%;
+    background-color: #D3DBD5;
+    padding: 20px;
+    border-radius: 10px;
+    min-height: 400px;
 }
