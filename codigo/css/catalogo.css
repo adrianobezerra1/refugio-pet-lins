@@ -14,29 +14,29 @@ body {
 
 /* Cabeçalho */
 .cabecalho {
-    background-color: #FFFFFF;
+    background: transparent;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 20px;
-    padding: 30px 30px;
+    padding: 20px 40px;
     min-height: 80px;
 }
 
 .logo  img{
     background-position: top left;
     font-size: 14px;
-    padding-right: 35px;
+    padding-right: 40px;
     text-align: left;
     padding: 8px;
     position: absolute;
-    top: 50%;
+    top: 30%;
     transform: translateY(-50%);
     left: 10px;
     font-size: 24px;
     margin: 0;
-    height: 100px;
+    height: 150px;
     width: auto;
 }
 
@@ -44,15 +44,20 @@ body {
 .menu-opcoes ul {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 25px;
     list-style: none;
     margin: 0;
     padding: 0;
+    position: relative;
+    top: -60px;
+    
 }
 
 .menu-opcoes a {
     color: #333333;
     text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .menu-opcoes a:hover {
@@ -68,8 +73,13 @@ main {
 }
 
 .faixa-ong {
-    background-color: #D3DBD5;
-    padding: 70px;
+    background-image: linear-gradient( rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url('../img/lar-pet.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 200px;
+    width: 100%;
+    padding: 40px;
     text-align: center;
 }
 
@@ -149,23 +159,50 @@ footer {
 }
 
 .animais {
-    background-color: #E7701C;
-    color: #FFFFFF;
-    padding: 15px;
-    text-align: center;
-    border-radius: 10px;
-    display: inline-block;
-    text-align: justify;
-    border-radius: 10px;
-    margin: 20px 0;
+    padding: 20px;
 }
 
-.animais li {
-    display: inline-block;
-    vertical-align: top;
-    width: 140px;
-    margin: 2px;
-    padding: 10px;
+/* Container que segura os cards e os joga lado a lado */
+.grade-cards {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;   /* Centraliza os cards na tela */
+    gap: 25px;                 /* Cria o espaço de separação entre eles */
+    flex-wrap: wrap;           /* Permite quebrar linha em telas menores */
+}
+
+/* Estilo individual de cada bloco/card de animal */
+.card-animal {
+    width: 200px;
+    background-color: #f28524; /* Cor laranja individual */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Força a imagem a aparecer com tamanho correto dentro do card */
+.foto-animal {
+    width: 100%;
+    height:150px;
+    object-fit: cover; /* Corta a imagem sem distorcer */
+    display: block;
+}
+
+/* Espaçamento e cor do texto dentro do card */
+.info-animal {
+    padding: 15px;
+    color: white;
+    font-family: sans-serif;
+    text-align: left;
+}
+
+.info-animal p {
+    margin: 6px 0;
+    font-size: 14px;
 }
 
 .faixa-laranja {
