@@ -20,23 +20,23 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 20px;
-    padding: 20px 40px;
+    padding: 30px 30px;
     min-height: 80px;
 }
 
 .logo  img{
     background-position: top left;
     font-size: 14px;
-    padding-right: 40px;
+    padding-right: 35px;
     text-align: left;
     padding: 8px;
     position: absolute;
-    top: 30%;
+    top: 50%;
     transform: translateY(-50%);
     left: 10px;
     font-size: 24px;
     margin: 0;
-    height: 150px;
+    height: 120px;
     width: auto;
 }
 
@@ -44,13 +44,11 @@ body {
 .menu-opcoes ul {
     display: flex;
     flex-wrap: wrap;
-    gap: 25px;
+    gap: 20px;
     list-style: none;
     margin: 0;
     padding: 0;
     position: relative;
-    top: -60px;
-    
 }
 
 .menu-opcoes a {
@@ -77,10 +75,22 @@ main {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 200px;
-    width: 100%;
+    width: auto;
+    height:  250px;
     padding: 40px;
     text-align: center;
+}
+
+.faixa-rodapé {
+   background-color:#D3DBD5;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: auto;
+    height:  150px;
+    padding: 40px;
+    text-align: center;
+    margin-top: 50px;
 }
 
 .secao-principal {

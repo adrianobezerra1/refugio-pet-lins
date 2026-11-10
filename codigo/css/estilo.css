@@ -36,7 +36,7 @@ body {
     left: 10px;
     font-size: 24px;
     margin: 0;
-    height: 100px;
+    height: 120px;
     width: auto;
 }
 
@@ -48,11 +48,14 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
+    position: relative;
 }
 
 .menu-opcoes a {
     color: #333333;
     text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .menu-opcoes a:hover {
@@ -67,11 +70,13 @@ main {
 }
 
 .faixa-ong {
-    background-color: #d3d8d5;
+    background-image: linear-gradient( rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url('../img/lar-pet.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 70px;
+    width: auto;
+    height:  250px;
+    padding: 40px;
     text-align: center;
 }
 
