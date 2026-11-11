@@ -114,6 +114,53 @@ main {
     margin-top: 10px;
 }
 
+.botao-animais {
+    display: block;
+    width: 300px;
+    box-sizing: border-box;
+    margin: 20px auto;
+    background-color: #E7701C;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 30px;
+    padding: 15px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.como-adotar {
+    padding: 40px 30px;
+    background-color: #D3DBD5;
+}
+
+.etapas-adocao {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.etapa {
+    flex: 1;
+    text-align: center;
+    padding: 25px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}
+
+.etapa h3 {
+    color: #E7701C;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.etapa p {
+    color: #333333;
+}
+
 /* Rodapé */
 footer {
     background-color: #E7701C;
