@@ -131,6 +131,10 @@ main {
     transition: background-color 0.3s;
 }
 
+.titulo-secao h2 {
+    font-weight: bold;
+}
+
 .como-adotar {
     padding: 40px 30px;
     background-color: #D3DBD5;
@@ -159,6 +163,30 @@ main {
 
 .etapa p {
     color: #333333;
+}
+
+.melhor-amigo {
+    background-color: #FFFFFF;
+    padding: 50px 30px;
+    text-align: center;
+}
+
+.conteudo-melhor-amigo {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.conteudo-melhor-amigo h2 {
+    color: #E7701C;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.conteudo-melhor-amigo p {
+    color: #333333;
+    font-size: 18px;
+    line-height: 1.6;
 }
 
 /* Rodapé */
