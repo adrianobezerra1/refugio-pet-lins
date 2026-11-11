@@ -1,8 +1,5 @@
-body {
-    min-height: 100%;
-    margin: 0;
-}
 
+/* Configurações gerais */
 body {
     display: flex;
     flex-direction: column;
@@ -20,24 +17,18 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 20px;
-    padding: 30px 30px;
+    padding: 30px;
     min-height: 80px;
 }
 
-.logo  img{
-    background-position: top left;
-    font-size: 14px;
-    padding-right: 35px;
-    text-align: left;
-    padding: 8px;
+.logo img {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     left: 10px;
-    font-size: 24px;
-    margin: 0;
     height: 120px;
     width: auto;
+    padding: 8px;
 }
 
 /* Menu de navegação */
@@ -59,42 +50,69 @@ body {
 }
 
 .menu-opcoes a:hover {
-    text-decoration: none;
     color: #E7701C;
 }
+
 /* Conteúdo principal */
 main {
     flex: 1;
     background-color: #F5F5F5;
 }
 
+/* Banner principal */
 .faixa-ong {
-    background-image: linear-gradient( rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url('../img/lar-pet.jpeg');
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),
+        url('../img/lar-pet.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: auto;
-    height:  250px;
+    height: 250px;
     padding: 40px;
     text-align: center;
 }
 
-.faixa-rodapé {
-   background-color:#D3DBD5;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: auto;
-    height:  150px;
-    padding: 40px;
-    text-align: center;
-    margin-top: 50px;
+/* Seção de animais */
+.secao-principal {
+    padding: 30px;
 }
 
+.titulo-secao {
+    text-align: center;
+    margin-bottom: 20px;
+}
 
+/* Carrossel */
+.lista-animais {
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
 
+/* Cards dos animais */
+.card-animal {
+    flex: 0 0 250px;
+    scroll-snap-align: start;
+}
 
+/* Imagens dos animais */
+.card-animal img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
 
+/* Nome dos animais */
+.card-animal h3 {
+    text-align: center;
+    margin-top: 10px;
+}
 
 /* Rodapé */
 footer {
