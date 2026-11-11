@@ -1,0 +1,110 @@
+body {
+    min-height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333333;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    background-color: #FFFFFF;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 30px 30px;
+    min-height: 80px;
+}
+
+.logo  img{
+    background-position: top left;
+    font-size: 14px;
+    padding-right: 35px;
+    text-align: left;
+    padding: 8px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    font-size: 24px;
+    margin: 0;
+    height: 120px;
+    width: auto;
+}
+
+/* Menu de navegação */
+.menu-opcoes ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.menu-opcoes a {
+    color: #333333;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.menu-opcoes a:hover {
+    text-decoration: none;
+    color: #E7701C;
+}
+/* Conteúdo principal */
+main {
+    flex: 1;
+    background-color: #F5F5F5;
+}
+
+.faixa-ong {
+    background-image: linear-gradient( rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url('../img/lar-pet.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: auto;
+    height:  250px;
+    padding: 40px;
+    text-align: center;
+}
+
+.faixa-rodapé {
+   background-color:#D3DBD5;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: auto;
+    height:  150px;
+    padding: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+/* Rodapé */
+footer {
+    background-color: #E7701C;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+
+.container-rodape {
+    max-width: 1000px;
+    margin: 0 auto;
+}
