@@ -14,7 +14,7 @@ Projeto de extensão desenvolvido por alunos do
 | <img src="https://wsrv.nl/?url=https://github.com/rafaelasofia.png&w=100&h=100&fit=cover&mask=circle" width="50"> | **Rafaela Sofia** | [@rafaelasofia](https://github.com/rafaelasofia) | Pesquisa, Relatório |
 | <img src="https://wsrv.nl/?url=https://github.com/RafaellaMansano.png&w=100&h=100&fit=cover&mask=circle" width="50"> | **Rafaella Mansano** | [@RafaellaMansano](https://github.com/RafaellaMansano) | Dev Frontend, Wireframe |
 | <img src="https://wsrv.nl/?url=https://github.com/matheushenriqueg74-prog.png&w=100&h=100&fit=cover&mask=circle" width="50"> | **Matheus Henrique** | [@matheushenriqueg74-prog](https://github.com/matheushenriqueg74-prog) | Textos |
-| <img src="https://wsrv.nl/?url=https://github.com/nome_do_lucas.png&w=100&h=100&fit=cover&mask=circle" width="50"> | **Lucas Gabriel** | [@nome_do_lucas](linkdoperfildolucas) | Pesquisa |
+| <img src="https://wsrv.nl/?url=https://github.com/lucasgaidie.png&w=100&h=100&fit=cover&mask=circle" width="50"> | **Lucas Gabriel** | [@lucasgaidie](https://github.com/lucasgaidie) | Pesquisa |
 
 ## 🗂️ Estrutura do repositório
 
