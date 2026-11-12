@@ -81,6 +81,15 @@ main {
     text-align: center;
 }
 
+.faixa-rodapé {
+   background-image: url(../img/fundo-patas.jpeg);
+    background-repeat: repeat;
+    width: auto;
+    height:  150px;
+    padding: 40px;
+    text-align: center;
+}
+
 .secao-principal {
     padding: 20px 30px 40px;
 }

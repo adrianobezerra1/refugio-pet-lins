@@ -14,7 +14,7 @@ body {
 
 /* Cabeçalho */
 .cabecalho {
-    background: transparent;
+    background-color: #FFFFFF;
     position: relative;
     display: flex;
     align-items: center;
@@ -82,15 +82,12 @@ main {
 }
 
 .faixa-rodapé {
-   background-color:#D3DBD5;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+   background-image: url(../img/fundo-patas.jpeg);
+    background-repeat: repeat;
     width: auto;
     height:  150px;
     padding: 40px;
     text-align: center;
-    margin-top: 50px;
 }
 
 .secao-principal {
@@ -185,7 +182,7 @@ footer {
 
 /* Estilo individual de cada bloco/card de animal */
 .card-animal {
-    width: 200px;
+    width: 300px;
     background-color: #f28524; /* Cor laranja individual */
     border-radius: 10px;
     overflow: hidden;
@@ -196,8 +193,8 @@ footer {
 
 /* Força a imagem a aparecer com tamanho correto dentro do card */
 .foto-animal {
-    width: 100%;
-    height:150px;
+    width: auto;
+    height:200px;
     object-fit: cover; /* Corta a imagem sem distorcer */
     display: block;
 }
@@ -212,7 +209,14 @@ footer {
 
 .info-animal p {
     margin: 6px 0;
-    font-size: 14px;
+    font-size: 20px;
+}
+
+.info-animal h1 {
+    margin: 6px 0;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .faixa-laranja {

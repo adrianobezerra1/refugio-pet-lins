@@ -73,6 +73,15 @@ main {
     text-align: center;
 }
 
+.faixa-rodapé {
+   background-image: url(../img/fundo-patas.jpeg);
+    background-repeat: repeat;
+    width: auto;
+    height:  150px;
+    padding: 40px;
+    text-align: center;
+}
+
 /* Seção de animais */
 .secao-principal {
     padding: 30px;
@@ -113,6 +122,7 @@ main {
 .card-animal h3 {
     text-align: center;
     margin-top: 10px;
+    font-weight: bold;
 }
 
 .botao-animais {
@@ -130,6 +140,10 @@ main {
     text-decoration: none;
     cursor: pointer;
     transition: background-color 0.3s;
+}
+
+.botao-animais:hover {
+    background-color: #cc5e17;
 }
 
 .titulo-secao h2 {

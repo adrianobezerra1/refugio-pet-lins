@@ -80,6 +80,15 @@ main {
     text-align: center;
 }
 
+.faixa-rodapé {
+   background-image: url(../img/fundo-patas.jpeg);
+    background-repeat: repeat;
+    width: auto;
+    height:  150px;
+    padding: 40px;
+    text-align: center;
+}
+
 .secao-principal {
     padding: 20px 30px 40px;
 }
@@ -128,14 +137,22 @@ main {
 
 /* Espaço reservado para as imagens */
 .imagem-ong {
-    background-color: #D3DBD5;
-    min-height: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 10px;
     box-sizing: border-box;
+}
+
+.imagem-ong img {
+    width: auto;
+    height:250px;
+    object-fit: cover; /* Corta a imagem sem distorcer */
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
 }
 
 /* Rodapé */
