@@ -185,6 +185,7 @@ footer {
 .card-animal {
     flex: 0 0 250px;
     scroll-snap-align: start;
+    
 }
 
 /* Imagens dos animais */

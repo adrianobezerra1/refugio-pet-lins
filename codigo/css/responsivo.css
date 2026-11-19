@@ -53,6 +53,16 @@ body { overflow-x: hidden; }
     .info-animal p { font-size: 17px; }
     .info-animal h1 { font-size: 22px; }
 
+    .etapas-adocao {
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 20px;
+}
+    .etapa {
+    width: auto;
+    flex: none;
+}
+
     .form input { font-size: 16px; }
     .form textarea { font-size: 16px; height: 140px; }
     .contatos li a { font-size: 17px; }
@@ -77,6 +87,16 @@ body { overflow-x: hidden; }
     .logo-central h2 { font-size: 21px; }
     .card-animal { width: 100%; max-width: 340px; }
     .foto-animal { height: 220px; }
+
+    .etapas-adocao {
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 20px;
+}
+    .etapa {
+    width: auto;
+    flex: none;
+}
 
     .conteudo { padding: 0 10px; }
     .logo-central p { font-size: 14px; padding: 0 5px; }
