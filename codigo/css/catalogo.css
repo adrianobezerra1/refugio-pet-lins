@@ -219,6 +219,19 @@ footer {
     text-align: center;
 }
 
+.info-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0 8px 0;
+    border-bottom: 3px dotted #FFFFFF;
+}
+
+.info-2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0 0;
+}
+
 .faixa-laranja {
     background-color: #E7701C;
     padding: 15px;

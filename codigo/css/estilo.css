@@ -125,14 +125,10 @@ main {
     min-width: 0;
 }
 
-.texto-ong h2 {
-    margin-top: 0;
-    margin-bottom: 16px;
-}
-
 .texto-ong p {
     line-height: 1.7;
     margin-bottom: 14px;
+    text-align: justify;
 }
 
 /* Espaço reservado para as imagens */
@@ -172,4 +168,32 @@ footer {
     margin-top: 0;
     margin-bottom: 16px;
     font-weight: bold;
+    font-size: 20px;
+}
+
+/* Carrossel */
+.lista-animais {
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    justify-content: center;
+}
+
+/* Cards dos animais */
+.card-animal {
+    flex: 0 0 250px;
+    scroll-snap-align: start;
+}
+
+/* Imagens dos animais */
+.card-animal img {
+    display: block;
+    width: auto;
+    height: 280px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
