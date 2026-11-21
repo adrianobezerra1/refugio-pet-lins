@@ -216,3 +216,95 @@ footer {
     max-width: 1000px;
     margin: 0 auto;
 }
+
+/* Como funciona a adoção */
+.como-adotar {
+    padding: 40px 30px;
+    background-color: #D3DBD5;
+}
+
+.conteudo-adocao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    max-width: 1000px;
+    margin: 30px auto 0;
+    flex-direction: row-reverse;
+}
+
+/* Passo a passo */
+.etapas-adocao {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+
+.etapa {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.etapa h3 {
+    color: #E7701C;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Celular */
+.celular {
+    width: 280px;
+    min-height: 450px;
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+    border: 8px solid #333333;
+    border-radius: 30px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+/* Cabeçalho do celular */
+.topo-celular {
+    background-color: #E7701C;
+    color: #FFFFFF;
+    padding: 15px;
+    text-align: center;
+}
+
+.topo-celular h3 {
+    margin: 0;
+}
+
+.topo-celular p {
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+/* Conversa */
+.conversa {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px 10px;
+}
+
+/* Mensagens */
+.mensagem {
+    padding: 10px;
+    border-radius: 12px;
+    font-size: 13px;
+    line-height: 1.4;
+    max-width: 85%;
+}
+
+.enviada {
+    background-color: #D3DBD5;
+    align-self: flex-end;
+}
+
+.recebida {
+    background-color: #FFFFFF;
+    align-self: flex-start;
+}
